@@ -295,132 +295,130 @@ month:
         alla questione della moneta. Objections and replies, senza decretare.
 
     # -----------------------------------------------------------------------
-    # Giorno 7 — "Enough and as good"
+    # Giorno 7 — Il corpo umano: possiamo possedere noi stessi?
     # -----------------------------------------------------------------------
     - day: 7
-      title: "«Enough and as good»"
-      fundamental_question: "L'appropriazione è legittima solo se rimane 'enough, and as good' per gli altri?"
+      title: "Il corpo umano: possiamo possedere noi stessi?"
+      fundamental_question: "Siamo proprietari del nostro corpo al punto da poterne vendere le parti?"
       why_it_matters: >-
-        Il famoso proviso lockeano è stato interpretato in modi molto diversi
-        (condizione necessaria? semplice osservazione di fatto? condizione
-        globale?). Questa lezione mette a confronto le interpretazioni.
+        Lasciamo da parte i campi. Se la proprietà è il diritto di controllare 
+        e alienare una risorsa, questo si applica al nostro corpo biologico? 
+        La vendita di organi, il plasma o i brevetti su sequenze di DNA ci costringono 
+        a chiederci se il corpo sia una "cosa" che possediamo.
       objectives:
-        - Leggere il passaggio di § 27 e § 33.
-        - Distinguere le interpretazioni del proviso.
-        - Vedere come il proviso venga usato oggi nell'egualitarismo (e.g. Nozick lo cancella, altri lo rafforzano).
+        - Esplorare l'autoproprietà (self-ownership) applicata al corpo fisico.
+        - Discutere i limiti etici alla mercificazione (commodification).
+        - Analizzare il famoso caso legale Moore v. Regents of the University of California.
       concepts:
-        - sufficiency proviso
-        - enough and as good
-        - interpretation
-        - baseline
+        - self-ownership
+        - commodification
+        - bodily autonomy
+        - inalienability
       authors:
-        - John Locke
-        - Robert Nozick
-        - Hillel Steiner
+        - Debra Satz
+        - Michael Sandel
       known_primary_sources:
-        - author: "John Locke"
-          title: "Second Treatise of Government"
-          location: "Book II, Ch. V, §§ 27, 33"
-          url: "https://www.gutenberg.org/files/7370/7370-h/7370-h.htm"
-          note: ""
+        - author: "Supreme Court of California"
+          title: "Moore v. Regents of the University of California"
+          location: "Sentenza (1990) sui diritti di proprietà sulle cellule derivate"
+          url: "https://law.justia.com/cases/california/supreme-court/3d/51/120.html"
+          note: "Decisione legale storica, fondamentale per la bioetica della proprietà."
       known_secondary_sources:
-        - author: "Christopher Morris (ed.)"
-          title: "Property, Stanford Encyclopedia of Philosophy"
-          url: "https://plato.stanford.edu/entries/property/"
-          note: ""
+        - author: "Stephen Wilkinson"
+          title: "The Sale of Human Organs, Stanford Encyclopedia of Philosophy"
+          url: "https://plato.stanford.edu/entries/organs-sale/"
+          note: "Panoramica etica sulla vendita del corpo."
       suggested_queries:
-        - "Locke proviso enough and as good interpretation"
-        - "Nozick Lockean proviso chapter 7"
-        - "Locke sufficiency proviso egalitarian"
+        - "Moore v Regents property rights over cells"
+        - "commodification of the human body philosophy"
+        - "Debra Satz why some things should not be for sale"
       requirements: >-
-        Presentare almeno due interpretazioni in competizione del proviso senza
-        scegliere; mostrare quali argomenti usa ciascuna.
+        Spostare il focus dalle risorse esterne al corpo umano. Non dare per scontato 
+        che l'autoproprietà implichi automaticamente il diritto di vendere pezzi di sé.
 
     # -----------------------------------------------------------------------
-    # Giorno 8 — La moneta cambia tutto
+    # Giorno 8 — La frontiera spaziale: chi possiede l'universo?
     # -----------------------------------------------------------------------
     - day: 8
-      title: "La moneta cambia tutto"
-      fundamental_question: "Come può Locke passare da limiti stringenti all'appropriazione a una società con grandi proprietà accumulate?"
+      title: "La frontiera spaziale: chi possiede l'universo?"
+      fundamental_question: "Si possono rivendicare diritti di proprietà su corpi celesti e risorse extraterrestri?"
       why_it_matters: >-
-        Con il denaro, che non si guasta, lo spoilage cessa di limitare
-        l'accumulazione. Locke presenta il denaro come nato dal consenso
-        volontario. È una delle mosse più discusse della sua teoria.
+        Con l'avvento della space economy privata (estrazione mineraria da asteroidi, 
+        basi lunari), l'appropriazione originaria non è più un esperimento mentale, 
+        ma un problema geopolitico, giuridico ed economico immediato.
       objectives:
-        - Studiare il ruolo del denaro e del consenso implicito.
-        - Capire la discontinuità tra limiti e accumulazione.
-        - Valutare le critiche (e.g. Macpherson; la "favola del denaro").
+        - Applicare le teorie dell'appropriazione a un dominio extra-terrestre.
+        - Analizzare l'Outer Space Treaty (1967) e il divieto di appropriazione sovrana.
+        - Esplorare il conflitto tra "common heritage of mankind" e lo sfruttamento commerciale.
       concepts:
-        - money
-        - consent
-        - accumulation
-        - inequality
-        - tacit consent
+        - space law
+        - terra nullius
+        - res communis
+        - common heritage of mankind
+        - original acquisition
       authors:
-        - John Locke
-        - C. B. Macpherson
-        - James Tully
+        - Hugo Grotius (analogia con le acque internazionali)
+        - Elinor Ostrom (estensioni ai global commons)
       known_primary_sources:
-        - author: "John Locke"
-          title: "Second Treatise of Government"
-          location: "Book II, Ch. V, §§ 36–50"
-          url: "https://www.gutenberg.org/files/7370/7370-h/7370-h.htm"
-          note: ""
+        - author: "United Nations"
+          title: "Outer Space Treaty"
+          location: "Articoli I e II (Non-appropriation principle)"
+          url: "https://www.unoosa.org/oosa/en/ourwork/spacelaw/treaties/outerspacetreaty.html"
+          note: "Trattato del 1967 che regola la giurisdizione e la proprietà nello spazio."
       known_secondary_sources:
-        - author: "Alexander Moseley"
-          title: "John Locke: Political Philosophy (Internet Encyclopedia of Philosophy)"
-          url: "https://iep.utm.edu/locke-po/"
-          note: "Sezione su proprietà e moneta."
+        - author: "James Schwartz"
+          title: "The Value of Science in Space Exploration"
+          url: ""
+          note: "Analisi sull'etica dell'esplorazione e dell'estrazione spaziale."
       suggested_queries:
-        - "Locke money consent accumulation property"
-        - "Macpherson possessive individualism Locke money"
-        - "Locke gold silver tacit consent inequality"
+        - "space property rights asteroid mining ethics"
+        - "Outer Space Treaty non-appropriation principle"
+        - "common heritage of mankind space law philosophy"
       requirements: >-
-        Spiegare il passaggio senza nascondere la tensione: il denaro elimina il
-        limite dello spoilage. Presentare le letture in competizione.
+        Evitare di trattare il tema come pura fantascienza: ancorarlo ai trattati 
+        internazionali esistenti e alle attuali dispute legali sull'estrazione commerciale.
 
     # -----------------------------------------------------------------------
-    # Giorno 9 — Critiche contemporanee a Locke
+    # Giorno 9 — La natura può possedere se stessa?
     # -----------------------------------------------------------------------
     - day: 9
-      title: "Critiche contemporanee a Locke"
-      fundamental_question: "Quali obiezioni filosofiche serie esistono contro l'argomento lockeano?"
+      title: "La natura può possedere se stessa?"
+      fundamental_question: "Un ecosistema, un fiume o una foresta possono essere legalmente considerati proprietari di se stessi?"
       why_it_matters: >-
-        La teoria lockeana ha generato un enorme dibattito. Questa lezione
-        esercita l'abilità di valutare: per ogni critica, tesi, argomento,
-        risposta lockeana, questione aperta.
+        La filosofia occidentale vede la natura esclusivamente come 'oggetto' di proprietà. 
+        Tuttavia, prospettive ecocentriche e visioni del mondo indigene stanno spingendo 
+        i tribunali a riconoscere enti naturali come soggetti titolari di diritti e di proprietà.
       objectives:
-        - Presentare critiche (Nozick, Waldron, Simmons, Wenar, egualitari).
-        - Non trasformare la lezione in una condanna di Locke.
-        - Addestrare il formato "tesi → migliore obiezione → risposta → residuo".
+        - Mettere in discussione l'antropocentrismo del concetto di proprietà.
+        - Studiare i casi reali in cui entità naturali hanno ottenuto 'legal personhood' (es. il fiume Whanganui).
+        - Confrontare il diritto di proprietà occidentale con i modelli di 'stewardship' indigeni.
       concepts:
-        - criticism
-        - reply
-        - open question
+        - legal personhood for nature
+        - indigenous stewardship
+        - anthropocentrism
+        - ecocentrism
+        - self-owning ecosystems
       authors:
-        - John Locke
-        - Robert Nozick
-        - Jeremy Waldron
-        - A. John Simmons
-        - Leif Wenar
+        - Christopher D. Stone
+        - Cormac Cullinan
       known_primary_sources:
-        - author: "John Locke"
-          title: "Second Treatise of Government"
-          location: "Book II, Ch. V, §§ 25–51"
-          url: "https://www.gutenberg.org/files/7370/7370-h/7370-h.htm"
-          note: ""
+        - author: "Christopher D. Stone"
+          title: "Should Trees Have Standing? - Toward Legal Rights for Natural Objects"
+          location: "Southern California Law Review (1972)"
+          url: ""
+          note: "Testo fondativo per i diritti legali della natura."
       known_secondary_sources:
-        - author: "Christopher Morris (ed.)"
-          title: "Property, Stanford Encyclopedia of Philosophy"
-          url: "https://plato.stanford.edu/entries/property/"
-          note: "Bibliografia e critiche."
+        - author: "David Takacs"
+          title: "The Historical Roots of Rights of Nature"
+          url: ""
+          note: "Approfondimento sulle origini del movimento per i diritti della natura."
       suggested_queries:
-        - "criticism of Locke labour theory of property"
-        - "Waldron Locke property rights objections"
-        - "Wenar original acquisition of private property criticism"
+        - "Should trees have standing Christopher Stone summary"
+        - "Whanganui river legal personhood property rights"
+        - "indigenous stewardship vs western property law"
       requirements: >-
-        Per ogni critica: tesi, argomento, possibile risposta lockeana, questione
-        irrisolta. Nessuna critica presentata come confutazione definitiva.
+        Presentare la 'legal personhood' della natura non come una poetica metafora, 
+        ma come una dottrina giuridica e filosofica reale e operativa, citando casi concreti.
 
     # -----------------------------------------------------------------------
     # Giorno 10 — Marx: proprietà e lavoro
@@ -1069,48 +1067,47 @@ month:
         Ostrom con i loro limiti.
 
     # -----------------------------------------------------------------------
-    # Giorno 25 — Proprietà intellettuale
+    # Giorno 25 — Proprietà intellettuale, digitale e IA
     # -----------------------------------------------------------------------
     - day: 25
-      title: "Proprietà intellettuale"
-      fundamental_question: "Un'idea può essere posseduta nello stesso senso in cui può essere posseduto un terreno?"
+      title: "Proprietà intellettuale, digitale e IA"
+      fundamental_question: "Un'idea, un software o un'opera generata da un'intelligenza artificiale possono essere posseduti?"
       why_it_matters: >-
-        La proprietà intellettuale estende il paradigma della proprietà a entità
-        non-rivali. Scarsità, esclusione, copia, incentivo e appropriazione
-        vengono rimesse in discussione.
+        La proprietà intellettuale estende il paradigma della proprietà a entità 
+        non rivali. Con la pirateria digitale, l'open source e l'Intelligenza Artificiale 
+        generativa, i concetti di scarsità, esclusione e creazione vengono radicalmente sfidati.
       objectives:
-        - Confrontare scarsità, esclusione, copia, incentivo, appropriazione nel dominio delle idee.
-        - Presentare gli argomenti pro e contro la proprietà intellettuale.
-        - Vedere come Locke e il pubblico dominio entrino in gioco.
+        - Confrontare scarsità, esclusione e appropriazione nel dominio del digitale.
+        - Esplorare l'impatto dell'IA generativa sul diritto d'autore (chi possiede l'opera?).
+        - Presentare gli argomenti pro (incentivo) e contro (pubblico dominio) la proprietà intellettuale.
       concepts:
         - scarcity
         - non-rivalry
-        - copy
-        - incentive
+        - open source
+        - generative AI
         - public domain
-        - appropriation
+        - incentive
       authors:
-        - John Locke
         - Edwin Hettinger
-        - Stephen Kinsella
+        - Lawrence Lessig
       known_primary_sources:
-        - author: "John Locke"
-          title: "Second Treatise of Government"
-          location: "Ch. V (applicazione analogica al dominio intellettuale)"
-          url: "https://www.gutenberg.org/files/7370/7370-h/7370-h.htm"
-          note: ""
+        - author: "Lawrence Lessig"
+          title: "Free Culture"
+          location: "Capitoli introduttivi su proprietà e pirateria"
+          url: "https://free-culture.cc/freeculture.pdf"
+          note: "Testo di riferimento sul copyleft e il dominio pubblico digitale."
       known_secondary_sources:
         - author: "Adam Moore, Ken Himma"
           title: "Intellectual Property, Stanford Encyclopedia of Philosophy"
           url: "https://plato.stanford.edu/entries/intellectual-property/"
           note: ""
       suggested_queries:
-        - "philosophy of intellectual property lockean argument"
-        - "intellectual property non-rivalrous goods arguments"
+        - "intellectual property generative AI copyright philosophy"
+        - "Lawrence Lessig free culture property rights"
         - "is intellectual property justified incentivism"
       requirements: >-
-        L'analogia terra/idea deve essere esplicitamente problematizzata. Nessun
-        parere definitivo.
+        Andare oltre la semplice analogia terra/idea: esplorare casi concreti come 
+        il software open source o l'uso di dataset protetti da copyright per addestrare modelli IA.
 
     # -----------------------------------------------------------------------
     # Giorno 26 — Terra e risorse naturali
