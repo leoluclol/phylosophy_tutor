@@ -1,0 +1,15 @@
+# Philosophy Tutor — daily lesson via Telegram.
+#
+# Run `send_daily.py` (through the `daily_lesson.sh` wrapper) every day at
+# 05:00 (VPS timezone — the hour is set to 07:00 in the recipient's timezone,
+# UTC+2; this server runs on UTC, hence 05:00 * * *). It generates the next
+# lesson, converts the Markdown to Telegram HTML and delivers it to the chat
+# configured in `.env` (TELEGRAM_BOT_TOKEN / TELEGRAM_USER_ID).
+#
+# Install with:
+#   crontab crontab.example          # replaces your entire crontab
+# (or append the single line below to your existing crontab with `crontab -e`).
+#
+# The wrapper uses absolute paths and the project venv, so it works with the
+# minimal environment cron provides.
+0 5 * * * /var/www/phylosophy_tutor/daily_lesson.sh

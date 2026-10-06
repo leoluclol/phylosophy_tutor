@@ -1,0 +1,1334 @@
+# =============================================================================
+# Philosophy Tutor — Month 1: "Che cosa possiamo possedere?"
+#
+# La proprietà privata: che cosa significa possedere qualcosa, perché dovrebbe
+# esistere un diritto di proprietà, quali sono i suoi limiti e quali argomenti
+# esistono contro di essa.
+#
+# Il mese NON cerca di convincere lo studente a favore o contro la proprietà
+# privata: mette davanti ai migliori argomenti disponibili, da prospettive
+# diverse, senza strawman e senza dichiarare un "vincitore".
+#
+# Convenzioni:
+#   * known_primary_sources: fonti PRIMARIE già note (testi degli autori).
+#       url può essere vuota quando il testo è protetto da copyright: in quel
+#       caso il researcher NON deve inventare un URL, ma dichiarare la fonte
+#       senza link verificato.
+#   * known_secondary_sources: analisi accademica affidabile (SEP/IEP/università).
+#   * suggested_queries: query di partenza, in inglese (migliori risultati).
+#   * requirements: vincoli specifici della lezione per researcher/critic/writer.
+# =============================================================================
+
+month:
+  id: property
+  title: "Che cosa possiamo possedere?"
+  theme: >-
+    La proprietà privata: che cosa significa possedere qualcosa, perché
+    dovrebbe esistere un diritto di proprietà, quali sono i suoi limiti e
+    quali argomenti esistono contro di essa.
+  first_day_question: "Che cosa possiamo possedere?"
+
+  days:
+  # -----------------------------------------------------------------------
+    # Giorno 1 — Il concetto stesso di proprietà
+    # -----------------------------------------------------------------------
+    - day: 1
+      title: "Che cosa significa possedere qualcosa?"
+      fundamental_question: "Che cosa significa dire 'questa cosa è mia'?"
+      why_it_matters: >-
+        Prima di discutere se la proprietà sia giusta, bisogna capire di che
+        cosa stiamo parlando. "Proprietà" oggi viene usata per indicare oggetti,
+        diritti, idee, persino parti di persone. Questa lezione distingue i
+        concetti che rendono la nozione utilizzabile.
+      objectives:
+        - Distinguere possesso, uso, controllo, proprietà, diritto, esclusione e custodia.
+        - Capire che la proprietà non è un mero fatto materiale, ma un insieme di relazioni giuridiche e normative.
+        - Introdurre l'idea che "proprietà" possa essere scomposta in diritti distinti.
+      concepts:
+        - possession
+        - use
+        - control
+        - ownership
+        - right
+        - exclusion
+        - custody
+      authors:
+        - John Locke
+        - Jeremy Bentham
+      known_primary_sources:
+        - author: "John Locke"
+          title: "Second Treatise of Government"
+          location: "Book II, Ch. V 'Of Property' (§§ 25–51)"
+          url: "https://www.gutenberg.org/files/7370/7370-h/7370-h.htm"
+          note: "Testo completo in HTML (Project Gutenberg)."
+      known_secondary_sources:
+        - author: "Christopher Morris (ed.)"
+          title: "Property, Stanford Encyclopedia of Philosophy"
+          url: "https://plato.stanford.edu/entries/property/"
+          note: "Definizioni di proprietà e bundle of rights."
+      suggested_queries:
+        - "what is property definition ownership possession control Stanford Encyclopedia"
+        - "Locke Second Treatise Of Property chapter 5 full text"
+        - "Hohfeld property as bundle of rights possession vs ownership"
+      requirements: >-
+        La lezione deve distinguere accuratamente possesso, uso, controllo,
+        proprietà, diritto, esclusione e custodia, e mostrare che "proprietà"
+        non è un fatto materiale ma una relazione normativa.
+
+    # -----------------------------------------------------------------------
+    # Giorno 2 — Perché dovrebbe esistere la proprietà?
+    # -----------------------------------------------------------------------
+    - day: 2
+      title: "Perché dovrebbe esistere la proprietà?"
+      fundamental_question: "Perché una persona dovrebbe avere il diritto di escludere gli altri dall'uso di una risorsa?"
+      why_it_matters: >-
+        La proprietà è un diritto di esclusione: dà a qualcuno il potere di
+        tenere altri lontani da una risorsa. Va giustificato. Questa lezione
+        introduce le famiglie principali di giustificazione.
+      objectives:
+        - Introdurre i principali tipi di giustificazione della proprietà.
+        - Capire la differenza tra giustificazioni che partono dalla natura e giustificazioni che partono dalle conseguenze.
+        - Preparare il terreno per le lezioni dedicate a Locke, Marx, Nozick, Rawls, Cohen.
+      concepts:
+        - natural justification
+        - utilitarian justification
+        - libertarian justification
+        - conventional justification
+        - consequentialist justification
+        - exclusion
+      authors:
+        - John Locke
+        - David Hume
+        - Jeremy Bentham
+      known_primary_sources:
+        - author: "John Locke"
+          title: "Second Treatise of Government"
+          location: "Book II, Ch. V, § 27 (labour as source of property)"
+          url: "https://www.gutenberg.org/files/7370/7370-h/7370-h.htm"
+          note: ""
+      known_secondary_sources:
+        - author: "Christopher Morris (ed.)"
+          title: "Property, Stanford Encyclopedia of Philosophy"
+          url: "https://plato.stanford.edu/entries/property/"
+          note: "Sezione sulle giustificazioni."
+      suggested_queries:
+        - "justification of private property natural rights utility convention"
+        - "Locke labour theory of property justification"
+        - "Hume conventions of property justice"
+      requirements: >-
+        Presentare bene TUTTE le famiglie di giustificazione (naturale,
+        utilitarista, libertaria, convenzionale, consequenzialista) senza
+        presentarne una come ovviamente superiore.
+
+    # -----------------------------------------------------------------------
+    # Giorno 3 — Locke: il problema dell'appropriazione
+    # -----------------------------------------------------------------------
+    - day: 3
+      title: "Locke: il problema dell'appropriazione"
+      fundamental_question: "Come può diventare 'mio' qualcosa che inizialmente appartiene al mondo comune?"
+      why_it_matters: >-
+        Locke è il punto di partenza della riflessione moderna sulla proprietà.
+        Il suo problema è il più difficile: spiegare come una risorsa comune
+        possa diventare proprietà privata senza il consenso di tutti.
+      objectives:
+        - Leggere il passaggio lockeano chiave (Second Treatise, Ch. V).
+        - Comprendere common, labour, appropriation, mixing one's labour, spoilage, sufficiency proviso.
+        - Vedere che l'argomento di Locke ha una struttura precisa che si può criticare pezzo per pezzo.
+      concepts:
+        - common
+        - labour
+        - appropriation
+        - mixing one's labour
+        - spoilage limitation
+        - sufficiency proviso
+      authors:
+        - John Locke
+      known_primary_sources:
+        - author: "John Locke"
+          title: "Second Treatise of Government"
+          location: "Book II, Ch. V, 'Of Property' (§§ 25–51)"
+          url: "https://www.gutenberg.org/files/7370/7370-h/7370-h.htm"
+          note: "Testo completo in HTML."
+      known_secondary_sources:
+        - author: "Christopher Morris (ed.)"
+          title: "Property, Stanford Encyclopedia of Philosophy"
+          url: "https://plato.stanford.edu/entries/property/"
+          note: ""
+        - author: "Alexander Moseley"
+          title: "John Locke: Political Philosophy (Internet Encyclopedia of Philosophy)"
+          url: "https://iep.utm.edu/locke-po/"
+          note: ""
+      suggested_queries:
+        - "Locke Second Treatise chapter 5 Of Property labour mixing"
+        - "Locke sufficiency proviso spoilage appropriation"
+        - "Locke appropriation without consent common world"
+      requirements: >-
+        Citare almeno un passaggio di Ch. V ed esporre i tre limiti lockeani:
+        labour, spoilage, proviso. Non trasformare l'argomento in un riassunto
+        privo del testo.
+
+    # -----------------------------------------------------------------------
+    # Giorno 4 — Il lavoro crea davvero proprietà?
+    # -----------------------------------------------------------------------
+    - day: 4
+      title: "Il lavoro crea davvero proprietà?"
+      fundamental_question: "Perché il mio lavoro dovrebbe trasferire un diritto su una cosa?"
+      why_it_matters: >-
+        L'argomento di Locke afferma che il lavoro genera proprietà. Ma "lavoro"
+        e "diritto" sono categorie diverse: occorre spiegare il passaggio, non
+        darlo per scontato.
+      objectives:
+        - Esaminare criticamente l'argomento lockeano.
+        - Distinguere lavorare su una cosa, trasformarla, crearne valore e acquisire un diritto.
+        - Prendere sul serio sia la difesa sia l'attacco.
+      concepts:
+        - labour
+        - transformation
+        - value creation
+        - acquisition
+        - desert
+      authors:
+        - John Locke
+        - Jeremy Waldron
+        - Robert Nozick
+      known_primary_sources:
+        - author: "John Locke"
+          title: "Second Treatise of Government"
+          location: "Book II, Ch. V, §§ 27–28"
+          url: "https://www.gutenberg.org/files/7370/7370-h/7370-h.htm"
+          note: ""
+      known_secondary_sources:
+        - author: "Christopher Morris (ed.)"
+          title: "Property, Stanford Encyclopedia of Philosophy"
+          url: "https://plato.stanford.edu/entries/property/"
+          note: "Sezione 'Locke' e critiche."
+      suggested_queries:
+        - "Locke labour mixing argument criticism Wenar"
+        - "why should labour create property right"
+        - "Locke property labour Nozick criticism"
+      requirements: >-
+        Esaminare il passaggio da lavoro a diritto senza dare per scontato che
+        sia valido; presentare le obiezioni serie e le difese lockeane.
+
+    # -----------------------------------------------------------------------
+    # Giorno 5 — Il problema del "mixing labour"
+    # -----------------------------------------------------------------------
+    - day: 5
+      title: "Il problema del 'mixing labour'"
+      fundamental_question: "Se mescolo qualcosa che è mio con qualcosa che non è mio, perché dovrei diventare proprietario dell'intero risultato?"
+      why_it_matters: >-
+        È l'illustrazione più famosa del punto debole dell'argomento lockeano.
+        Mescolare due cose di cui possiedi solo una non dà evidentemente
+        un diritto sull'insieme.
+      objectives:
+        - Ricostruire l'argomento del mixing.
+        - Presentare le critiche principali (Nozick, Waldron, Simmons, Wenar).
+        - Presentare le migliori risposte disponibili per Locke.
+      concepts:
+        - mixing labour
+        - tomato soup argument
+        - ownership of results
+        - boundary problem
+      authors:
+        - John Locke
+        - Robert Nozick
+        - Jeremy Waldron
+        - A. John Simmons
+      known_primary_sources:
+        - author: "John Locke"
+          title: "Second Treatise of Government"
+          location: "Book II, Ch. V, § 27"
+          url: "https://www.gutenberg.org/files/7370/7370-h/7370-h.htm"
+          note: "Passaggio sul 'mixing his labour'."
+      known_secondary_sources:
+        - author: "Christopher Morris (ed.)"
+          title: "Property, Stanford Encyclopedia of Philosophy"
+          url: "https://plato.stanford.edu/entries/property/"
+          note: ""
+      suggested_queries:
+        - "Locke mixing labour argument tomato soup analogy"
+        - "Nozick critic of Locke mixing labour 1974"
+        - "Waldron Locke mixing labour objection"
+      requirements: >-
+        Presentare la formulazione migliore del mixing, l'obiezione classica, le
+        risposte disponibili e ciò che resta dubbio.
+
+    # -----------------------------------------------------------------------
+    # Giorno 6 — Il limite dello spoilage
+    # -----------------------------------------------------------------------
+    - day: 6
+      title: "Il limite dello spoilage"
+      fundamental_question: "Perché il mio lavoro dovrebbe trasferire un diritto su una cosa?"
+      why_it_matters: >-
+        Locke non ammette l'appropriazione senza limiti: non si può prendere più
+        di quanto si possa usare prima che vada a male. Questo limite contiene
+        una logica morale profonda, ma porta con sé problemi seri.
+      objectives:
+        - Capire perché Locke introduce il limite dello spoilage.
+        - Vedere quali problemi genera (misura, giustizia distributiva, moneta).
+        - Preparare la discussione del ruolo del denaro (giorno 8).
+      concepts:
+        - spoilage limitation
+        - waste
+        - non-perishable
+        - accumulation
+        - money
+      authors:
+        - John Locke
+      known_primary_sources:
+        - author: "John Locke"
+          title: "Second Treatise of Government"
+          location: "Book II, Ch. V, § 31"
+          url: "https://www.gutenberg.org/files/7370/7370-h/7370-h.htm"
+          note: "Passaggio sul divieto di sprecati."
+      known_secondary_sources:
+        - author: "Christopher Morris (ed.)"
+          title: "Property, Stanford Encyclopedia of Philosophy"
+          url: "https://plato.stanford.edu/entries/property/"
+          note: ""
+      suggested_queries:
+        - "Locke spoilage limitation property chapter 5"
+        - "Locke no waste proviso property"
+        - "Locke appropriation limits money spoilage"
+      requirements: >-
+        Spiegare perché il limite esiste, quali problemi genera e come si collega
+        alla questione della moneta. Objections and replies, senza decretare.
+
+    # -----------------------------------------------------------------------
+    # Giorno 7 — "Enough and as good"
+    # -----------------------------------------------------------------------
+    - day: 7
+      title: "«Enough and as good»"
+      fundamental_question: "L'appropriazione è legittima solo se rimane 'enough, and as good' per gli altri?"
+      why_it_matters: >-
+        Il famoso proviso lockeano è stato interpretato in modi molto diversi
+        (condizione necessaria? semplice osservazione di fatto? condizione
+        globale?). Questa lezione mette a confronto le interpretazioni.
+      objectives:
+        - Leggere il passaggio di § 27 e § 33.
+        - Distinguere le interpretazioni del proviso.
+        - Vedere come il proviso venga usato oggi nell'egualitarismo (e.g. Nozick lo cancella, altri lo rafforzano).
+      concepts:
+        - sufficiency proviso
+        - enough and as good
+        - interpretation
+        - baseline
+      authors:
+        - John Locke
+        - Robert Nozick
+        - Hillel Steiner
+      known_primary_sources:
+        - author: "John Locke"
+          title: "Second Treatise of Government"
+          location: "Book II, Ch. V, §§ 27, 33"
+          url: "https://www.gutenberg.org/files/7370/7370-h/7370-h.htm"
+          note: ""
+      known_secondary_sources:
+        - author: "Christopher Morris (ed.)"
+          title: "Property, Stanford Encyclopedia of Philosophy"
+          url: "https://plato.stanford.edu/entries/property/"
+          note: ""
+      suggested_queries:
+        - "Locke proviso enough and as good interpretation"
+        - "Nozick Lockean proviso chapter 7"
+        - "Locke sufficiency proviso egalitarian"
+      requirements: >-
+        Presentare almeno due interpretazioni in competizione del proviso senza
+        scegliere; mostrare quali argomenti usa ciascuna.
+
+    # -----------------------------------------------------------------------
+    # Giorno 8 — La moneta cambia tutto
+    # -----------------------------------------------------------------------
+    - day: 8
+      title: "La moneta cambia tutto"
+      fundamental_question: "Come può Locke passare da limiti stringenti all'appropriazione a una società con grandi proprietà accumulate?"
+      why_it_matters: >-
+        Con il denaro, che non si guasta, lo spoilage cessa di limitare
+        l'accumulazione. Locke presenta il denaro come nato dal consenso
+        volontario. È una delle mosse più discusse della sua teoria.
+      objectives:
+        - Studiare il ruolo del denaro e del consenso implicito.
+        - Capire la discontinuità tra limiti e accumulazione.
+        - Valutare le critiche (e.g. Macpherson; la "favola del denaro").
+      concepts:
+        - money
+        - consent
+        - accumulation
+        - inequality
+        - tacit consent
+      authors:
+        - John Locke
+        - C. B. Macpherson
+        - James Tully
+      known_primary_sources:
+        - author: "John Locke"
+          title: "Second Treatise of Government"
+          location: "Book II, Ch. V, §§ 36–50"
+          url: "https://www.gutenberg.org/files/7370/7370-h/7370-h.htm"
+          note: ""
+      known_secondary_sources:
+        - author: "Alexander Moseley"
+          title: "John Locke: Political Philosophy (Internet Encyclopedia of Philosophy)"
+          url: "https://iep.utm.edu/locke-po/"
+          note: "Sezione su proprietà e moneta."
+      suggested_queries:
+        - "Locke money consent accumulation property"
+        - "Macpherson possessive individualism Locke money"
+        - "Locke gold silver tacit consent inequality"
+      requirements: >-
+        Spiegare il passaggio senza nascondere la tensione: il denaro elimina il
+        limite dello spoilage. Presentare le letture in competizione.
+
+    # -----------------------------------------------------------------------
+    # Giorno 9 — Critiche contemporanee a Locke
+    # -----------------------------------------------------------------------
+    - day: 9
+      title: "Critiche contemporanee a Locke"
+      fundamental_question: "Quali obiezioni filosofiche serie esistono contro l'argomento lockeano?"
+      why_it_matters: >-
+        La teoria lockeana ha generato un enorme dibattito. Questa lezione
+        esercita l'abilità di valutare: per ogni critica, tesi, argomento,
+        risposta lockeana, questione aperta.
+      objectives:
+        - Presentare critiche (Nozick, Waldron, Simmons, Wenar, egualitari).
+        - Non trasformare la lezione in una condanna di Locke.
+        - Addestrare il formato "tesi → migliore obiezione → risposta → residuo".
+      concepts:
+        - criticism
+        - reply
+        - open question
+      authors:
+        - John Locke
+        - Robert Nozick
+        - Jeremy Waldron
+        - A. John Simmons
+        - Leif Wenar
+      known_primary_sources:
+        - author: "John Locke"
+          title: "Second Treatise of Government"
+          location: "Book II, Ch. V, §§ 25–51"
+          url: "https://www.gutenberg.org/files/7370/7370-h/7370-h.htm"
+          note: ""
+      known_secondary_sources:
+        - author: "Christopher Morris (ed.)"
+          title: "Property, Stanford Encyclopedia of Philosophy"
+          url: "https://plato.stanford.edu/entries/property/"
+          note: "Bibliografia e critiche."
+      suggested_queries:
+        - "criticism of Locke labour theory of property"
+        - "Waldron Locke property rights objections"
+        - "Wenar original acquisition of private property criticism"
+      requirements: >-
+        Per ogni critica: tesi, argomento, possibile risposta lockeana, questione
+        irrisolta. Nessuna critica presentata come confutazione definitiva.
+
+    # -----------------------------------------------------------------------
+    # Giorno 10 — Marx: proprietà e lavoro
+    # -----------------------------------------------------------------------
+    - day: 10
+      title: "Marx: proprietà e lavoro"
+      fundamental_question: "Che cosa distingue la proprietà personale dalla proprietà privata dei mezzi di produzione?"
+      why_it_matters: >-
+        "Proprietà privata" ha significati diversi. Marx critica una cosa
+        specifica: la proprietà privata dei mezzi di produzione, non il possesso
+        personale di ciò che serve alla vita.
+      objectives:
+        - Distinguere proprietà personale, proprietà privata dei mezzi di produzione, possesso, lavoro, capitale.
+        - Introdurre la critica marxiana alla proprietà capitalistica.
+        - Evitare la caricatura "Marx è contro ogni proprietà".
+      concepts:
+        - personal property
+        - private property of means of production
+        - possession
+        - labour
+        - capital
+        - wage labour
+      authors:
+        - Karl Marx
+      known_primary_sources:
+        - author: "Karl Marx"
+          title: "Capital, Volume I"
+          location: "Ch. VI, 'The Buying and Selling of Labour-Power'"
+          url: "https://www.marxists.org/archive/marx/works/1867-c1/ch06.htm"
+          note: "Marxists Internet Archive, testo HTML completo."
+      known_secondary_sources:
+        - author: "Matt Vidal, Jean-Nicolas Beaudry, Vincent Guibert"
+          title: "Karl Marx, Stanford Encyclopedia of Philosophy"
+          url: "https://plato.stanford.edu/entries/marx/"
+          note: ""
+      suggested_queries:
+        - "Marx private property means of production critique"
+        - "Marx Capital labour-power buying and selling"
+        - "Marx property personal vs means of production"
+      requirements: >-
+        Non usare "proprietà privata" come fosse un concetto univoco. Distinguere
+        i significati e indicare esattamente quale proprietà critica Marx.
+
+    # -----------------------------------------------------------------------
+    # Giorno 11 — Marx e l'alienazione
+    # -----------------------------------------------------------------------
+    - day: 11
+      title: "Marx e l'alienazione"
+      fundamental_question: "Perché l'operaio risulta separato dal prodotto e dal proprio lavoro?"
+      why_it_matters: >-
+        L'alienazione collega lavoro, proprietà e prodotto: l'operaio produce
+        qualcosa che non gli appartiene e che si contrappone a lui. È una tesi
+        normativa, non solo descrittiva.
+      objectives:
+        - Leggere Marx sui Manoscritti economico-filosofici (1844) o su Il Capitale.
+        - Collegare lavoro, prodotto, proprietà e alienazione.
+        - Distinguere la tesi di Marx dalle sue interpretazioni.
+      concepts:
+        - alienation
+        - estranged labour
+        - product
+        - species-being
+      authors:
+        - Karl Marx
+      known_primary_sources:
+        - author: "Karl Marx"
+          title: "Economic and Philosophic Manuscripts of 1844"
+          location: "Third Manuscript, 'Estranged Labour'"
+          url: "https://www.marxists.org/archive/marx/works/1844/economic-philosophic-manuscripts/"
+          note: "URL da verificare: se la pagina non è raggiungibile, dichiarare la fonte senza citazione esatta."
+      known_secondary_sources:
+        - author: "Matt Vidal, Jean-Nicolas Beaudry, Vincent Guibert"
+          title: "Karl Marx, Stanford Encyclopedia of Philosophy"
+          url: "https://plato.stanford.edu/entries/marx/"
+          note: "Sezione sull'alienazione."
+      suggested_queries:
+        - "Marx estranged labour 1844 Estranged Labour full text"
+        - "Marx alienation product labour property"
+        - "Marx Economic and Philosophic Manuscripts estranged labour text"
+      requirements: >-
+        Se il testo primario non è recuperabile, dichiararlo esplicitamente e
+        NON inventare una citazione. Usare fonti secondarie per l'interpretazione.
+
+    # -----------------------------------------------------------------------
+    # Giorno 12 — Marx: appropriazione e sfruttamento
+    # -----------------------------------------------------------------------
+    - day: 12
+      title: "Marx: appropriazione e sfruttamento"
+      fundamental_question: "Il fatto che qualcuno possieda un mezzo di produzione genera necessariamente sfruttamento?"
+      why_it_matters: >-
+        La tesi di Marx non è solo che i ricchi sono ricchi: è che il rapporto di
+        proprietà produce un trasferimento sistematico di valore. Va esposta, e
+        vanno prese sul serio le obiezioni.
+      objectives:
+        - Ricostruire l'argomento del plusvalore e dello sfruttamento.
+        - Presentare le obiezioni principali (e.g. basate su rischio, funzione dell'imprenditore, contrattualismo).
+        - Lasciare aperto il dibattito.
+      concepts:
+        - surplus value
+        - exploitation
+        - means of production
+        - wage
+        - extraction
+      authors:
+        - Karl Marx
+      known_primary_sources:
+        - author: "Karl Marx"
+          title: "Capital, Volume I"
+          location: "Ch. VI, 'The Buying and Selling of Labour-Power'; Ch. XIV 'Division of Labour'"
+          url: "https://www.marxists.org/archive/marx/works/1867-c1/ch06.htm"
+          note: "Testo HTML completo."
+      known_secondary_sources:
+        - author: "Matt Vidal, Jean-Nicolas Beaudry, Vincent Guibert"
+          title: "Karl Marx, Stanford Encyclopedia of Philosophy"
+          url: "https://plato.stanford.edu/entries/marx/"
+          note: ""
+      suggested_queries:
+        - "Marx surplus value exploitation argument"
+        - "Marx theory of exploitation capitalism objections"
+        - "does private property of means of production imply exploitation"
+      requirements: >-
+        Presentare l'argomento marxiano nella forma più forte e le obiezioni nella
+        forma più forte. Non risolvere il dibattito.
+
+    # -----------------------------------------------------------------------
+    # Giorno 13 — Il problema del valore
+    # -----------------------------------------------------------------------
+    - day: 13
+      title: "Il problema del valore"
+      fundamental_question: "Da dove deriva il valore economico di una cosa?"
+      why_it_matters: >-
+        La teoria del valore è il retroterra filosofico della disputa: quanto
+        contribuisce il lavoro, quanto l'utilità, quanto la scarsità? La lezione
+        non è un corso di economia: chiarisce il problema filosofico.
+      objectives:
+        - Confrontare lavoro, utilità, scarsità, preferenze e mercato come fonti del valore.
+        - Mostrare che le teorie della proprietà presuppongono una risposta sulla genesi del valore.
+        - Indicare punti di accordo e disaccordo.
+      concepts:
+        - labour theory of value
+        - utility
+        - scarcity
+        - preferences
+        - market
+      authors:
+        - Karl Marx
+        - Adam Smith
+        - David Ricardo
+      known_primary_sources:
+        - author: "Karl Marx"
+          title: "Capital, Volume I"
+          location: "Ch. I, 'Commodities'"
+          url: "https://www.marxists.org/archive/marx/works/1867-c1/ch01.htm"
+          note: ""
+      known_secondary_sources:
+        - author: "Matt Vidal, Jean-Nicolas Beaudry, Vincent Guibert"
+          title: "Karl Marx, Stanford Encyclopedia of Philosophy"
+          url: "https://plato.stanford.edu/entries/marx/"
+          note: "Sezione sulla teoria del valore."
+      suggested_queries:
+        - "labor theory of value criticism scarcity utility"
+        - "Marx labor theory of value critique"
+        - "value economic philosophy labour utility"
+      requirements: >-
+        Mantenere il focus filosofico: la lezione serve a mostrare che la
+        questione del valore è presupposta dalle teorie della proprietà, non a
+        insegnare economia.
+
+    # -----------------------------------------------------------------------
+    # Giorno 14 — Nozick: acquisizione
+    # -----------------------------------------------------------------------
+    - day: 14
+      title: "Nozick: acquisizione"
+      fundamental_question: "Una distribuzione può essere giusta semplicemente perché deriva da acquisizioni e trasferimenti giusti?"
+      why_it_matters: >-
+        Nozick sostiene una teoria 'storica' della giustizia: ciò che conta è
+        come una distribuzione è arrivata a essere. L'appropriazione lockeana
+        (ripulita) e il trasferimento volontario bastano.
+      objectives:
+        - Studiare justice in acquisition, self-ownership, historical entitlement.
+        - Comprendere la struttura di 'distributive justice secondo i principi storici'.
+        - Presentare le obiezioni più note (es. Wilt Chamberlain, Rawls).
+      concepts:
+        - justice in acquisition
+        - justice in transfer
+        - historical entitlement
+        - self-ownership
+        - Wilt Chamberlain
+      authors:
+        - Robert Nozick
+      known_primary_sources:
+        - author: "Robert Nozick"
+          title: "Anarchy, State, and Utopia"
+          location: "Ch. 7, 'Distributive Justice'"
+          url: ""
+          note: "Testo protetto da copyright: NON usare citazioni lunghe; citare capitolo/sezione senza URL o con URL verificato di un estratto legale."
+      known_secondary_sources:
+        - author: "Robert Nozick"
+          title: "Libertarianism, Stanford Encyclopedia of Philosophy"
+          url: "https://plato.stanford.edu/entries/libertarianism/"
+          note: ""
+        - author: "Leif Wenar"
+          title: "Rights, Stanford Encyclopedia of Philosophy"
+          url: "https://plato.stanford.edu/entries/rights/"
+          note: ""
+      suggested_queries:
+        - "Nozick entitlement theory justice in acquisition"
+        - "Nozick historical entitlement distributive justice"
+        - "Nozick Wilt Chamberlain argument"
+      requirements: >-
+        La fonte primaria è sotto copyright: non inventare citazioni esatte.
+        Ricostruire gli argomenti di Nozick nella forma più forte, usando fonti
+        secondarie affidabili per l'esposizione.
+
+    # -----------------------------------------------------------------------
+    # Giorno 15 — Nozick: trasferimento
+    # -----------------------------------------------------------------------
+    - day: 15
+      title: "Nozick: trasferimento"
+      fundamental_question: "Se possiedo legittimamente qualcosa, posso trasferirla liberamente a qualcun altro?"
+      why_it_matters: >-
+        Il trasferimento è il secondo pilastro della teoria di Nozick. Vendita,
+        regalo, eredità e contratti sollevano domande su volontarietà e su
+        rapporti asimmetrici di potere.
+      objectives:
+        - Esaminare il principio di trasferimento di Nozick.
+        - Confrontare vendita, regalo, eredità e contratto.
+        - Presentare obiezioni basate su coercizione e asimmetria informativa.
+      concepts:
+        - justice in transfer
+        - voluntary exchange
+        - gift
+        - inheritance
+        - contract
+        - coercion
+      authors:
+        - Robert Nozick
+      known_primary_sources:
+        - author: "Robert Nozick"
+          title: "Anarchy, State, and Utopia"
+          location: "Ch. 7, 'Distributive Justice': il principio di trasferimento"
+          url: ""
+          note: "Sotto copyright: ricostruire dagli argomenti, citare con cautela."
+      known_secondary_sources:
+        - author: "Robert Nozick"
+          title: "Libertarianism, Stanford Encyclopedia of Philosophy"
+          url: "https://plato.stanford.edu/entries/libertarianism/"
+          note: ""
+      suggested_queries:
+        - "Nozick principle of transfer voluntary exchange"
+        - "Nozick inheritance gifts transfer justice"
+        - "Nozick Wilt Chamberlain transfer argument"
+      requirements: >-
+        Non inventare citazioni; ricostruire gli argomenti. Confrontare
+        esplicitamente vendita, regalo, eredità e contratto.
+
+    # -----------------------------------------------------------------------
+    # Giorno 16 — Nozick e la tassazione
+    # -----------------------------------------------------------------------
+    - day: 16
+      title: "Nozick e la tassazione"
+      fundamental_question: "La tassazione redistributiva è compatibile con l'autoproprietà?"
+      why_it_matters: >-
+        Per Nozick tassare il reddito da lavoro equivale a lavoro forzato. È una
+        delle tesi più discusse della filosofia politica contemporanea: la
+        lezione la espone e la mette alla prova.
+      objectives:
+        - Esporre la tesi "tassazione = lavoro forzato".
+        - Presentare le obiezioni principali (Murphy e Nagel, egalitaristi, chi distingue imposizione da estorsione).
+        - Discutere chi abbia ragione senza decidere.
+      concepts:
+        - taxation
+        - forced labour
+        - self-ownership
+        - redistribution
+        - legitimate coercion
+      authors:
+        - Robert Nozick
+        - Liam Murphy
+        - Thomas Nagel
+      known_primary_sources:
+        - author: "Robert Nozick"
+          title: "Anarchy, State, and Utopia"
+          location: "Ch. 7, sulla tassazione del lavoro"
+          url: ""
+          note: "Sotto copyright: ricostruire dall'argomento."
+      known_secondary_sources:
+        - author: "Robert Nozick"
+          title: "Libertarianism, Stanford Encyclopedia of Philosophy"
+          url: "https://plato.stanford.edu/entries/libertarianism/"
+          note: ""
+      suggested_queries:
+        - "Nozick taxation forced labor argument"
+        - "criticism Nozick taxation self-ownership"
+        - "Murphy Nagel myth of ownership Nozick taxation"
+      requirements: >-
+        Presentare la tesi e le obiezioni nella forma più forte. Non liquidare
+        nessuna delle due parti.
+
+    # -----------------------------------------------------------------------
+    # Giorno 17 — Il problema dell'eredità
+    # -----------------------------------------------------------------------
+    - day: 17
+      title: "Il problema dell'eredità"
+      fundamental_question: "Se la proprietà privata è legittima, perché dovrebbe essere legittimo trasmetterla ai propri figli?"
+      why_it_matters: >-
+        L'eredità connette la legittimità della proprietà con la disuguaglianza
+        intergenerazionale. È un terreno su cui libertari ed egualitari si
+        trovano vicini e lontani allo stesso tempo.
+      objectives:
+        - Confrontare argomenti a favore (libertà di trasferimento, cura familiare) e contro (merito, eguale cittadinanza, Nozick vs. Rawls).
+        - Vedere come l'eredità interagisca con la tassazione.
+      concepts:
+        - inheritance
+        - intergenerational justice
+        - merit
+        - family
+        - equality of opportunity
+      authors:
+        - Robert Nozick
+        - John Rawls
+        - Liam Murphy
+      known_primary_sources:
+        - author: "John Rawls"
+          title: "A Theory of Justice"
+          location: "Sul ruolo della famiglia e dell'eredità nella giustizia come equità"
+          url: ""
+          note: "Sotto copyright."
+      known_secondary_sources:
+        - author: "Leif Wenar"
+          title: "John Rawls, Stanford Encyclopedia of Philosophy"
+          url: "https://plato.stanford.edu/entries/rawls/"
+          note: ""
+      suggested_queries:
+        - "inheritance tax philosophical arguments for and against"
+        - "Nozick inheritance Rawls family justice"
+        - "inheritance and equal opportunity Rawls"
+      requirements: >-
+        Nessuna delle due parti deve apparire vincente. Distinguere
+        trasferimento volontario e trasferimento ereditario.
+
+    # -----------------------------------------------------------------------
+    # Giorno 18 — Cohen: self-ownership
+    # -----------------------------------------------------------------------
+    - day: 18
+      title: "Cohen: self-ownership"
+      fundamental_question: "Essere proprietari di sé stessi implica necessariamente essere proprietari dei propri beni?"
+      why_it_matters: >-
+        Cohen separa l'autoproprietà dalla proprietà delle risorse esterne: si può
+        essere a favore della prima senza accettare la seconda. È la mossa chiave
+        che definisce il confronto tra libertarismo ed egualitarismo di sinistra.
+      objectives:
+        - Separare self-ownership da ownership of external resources.
+        - Capire l'argomento di Cohen contro il passaggio "autoproprietà → proprietà di tutto".
+        - Vedere perché il dibattito non si chiude.
+      concepts:
+        - self-ownership
+        - ownership of external resources
+        - autonomy
+        - equality
+      authors:
+        - G. A. Cohen
+        - Robert Nozick
+      known_primary_sources:
+        - author: "G. A. Cohen"
+          title: "Self-Ownership, Freedom, and Equality"
+          location: "Ch. 1 e Ch. 2"
+          url: ""
+          note: "Sotto copyright: citare con cautela, capitolo/sezione senza URL."
+      known_secondary_sources:
+        - author: "Miriam Ronzoni (ed.)"
+          title: "G. A. Cohen, Stanford Encyclopedia of Philosophy"
+          url: "https://plato.stanford.edu/entries/cohen/"
+          note: ""
+        - author: "Robert Nozick"
+          title: "Libertarianism, Stanford Encyclopedia of Philosophy"
+          url: "https://plato.stanford.edu/entries/libertarianism/"
+          note: ""
+      suggested_queries:
+        - "Cohen self-ownership freedom equality argument"
+        - "self-ownership vs ownership of external resources Cohen"
+        - "autonomy equality Cohen Nozick"
+      requirements: >-
+        La domanda centrale: l'autoproprietà implica davvero la proprietà delle
+        risorse esterne? Presentare l'argomento di Cohen e la difesa libertaria.
+
+    # -----------------------------------------------------------------------
+    # Giorno 19 — Self-ownership e uguaglianza
+    # -----------------------------------------------------------------------
+    - day: 19
+      title: "Self-ownership e uguaglianza"
+      fundamental_question: "Si possono conciliare autodeterminazione, uguaglianza e distribuzione delle risorse?"
+      why_it_matters: >-
+        Cohen sostiene che autoproprietà e uguaglianza (outcome o opportunità)
+        sono in tensione, ma che l'autoproprietà non deve trasformarsi in
+        proprietà delle risorse altrui. La lezione esplora il trade-off.
+      objectives:
+        - Studiare la tensione tra self-ownership, uguaglianza e distribuzione delle risorse.
+        - Presentare la posizione di Cohen ("autoproprietà + egualitarismo nel mondo comune").
+        - Presentare le obiezioni libertarie ed egalitarie.
+      concepts:
+        - self-ownership
+        - equality
+        - distribution of resources
+        - autonomy
+        - luck egalitarianism
+      authors:
+        - G. A. Cohen
+        - John Roemer
+        - John Rawls
+      known_primary_sources:
+        - author: "G. A. Cohen"
+          title: "Self-Ownership, Freedom, and Equality"
+          location: "Part I"
+          url: ""
+          note: "Sotto copyright."
+      known_secondary_sources:
+        - author: "Miriam Ronzoni (ed.)"
+          title: "G. A. Cohen, Stanford Encyclopedia of Philosophy"
+          url: "https://plato.stanford.edu/entries/cohen/"
+          note: ""
+      suggested_queries:
+        - "Cohen self-ownership equality luck egalitarianism"
+        - "self-ownership and equality tension Cohen"
+        - "left libertarianism egalitarianism self-ownership"
+      requirements: >-
+        Non presentare autoproprietà e uguaglianza come incompatibili per
+        definizione: mostrare la tensione e le possibili conciliazioni.
+
+    # -----------------------------------------------------------------------
+    # Giorno 20 — Rawls e la proprietà
+    # -----------------------------------------------------------------------
+    - day: 20
+      title: "Rawls e la proprietà"
+      fundamental_question: "Una società giusta deve riconoscere la proprietà privata?"
+      why_it_matters: >-
+        La teoria di Rawls non risponde "sì" o "no" in astratto: distingue tra
+        proprietà personale e proprietà produttiva, e tra istituzioni concrete
+        (property-owning democracy, welfare capitalism, libéralisme).
+      objectives:
+        - Distinguere proprietà privata personale, proprietà produttiva, property-owning democracy, welfare capitalism.
+        - Capire perché Rawls non è semplicemente "contro la proprietà privata".
+        - Vedere il ruolo delle istituzioni di base nella giustizia come equità.
+      concepts:
+        - personal property
+        - productive property
+        - property-owning democracy
+        - welfare capitalism
+        - basic structure
+      authors:
+        - John Rawls
+      known_primary_sources:
+        - author: "John Rawls"
+          title: "A Theory of Justice"
+          location: "Sulla libertà di proprietà (parti I–II); Wealth vs. property-owning democracy"
+          url: ""
+          note: "Sotto copyright."
+      known_secondary_sources:
+        - author: "Leif Wenar"
+          title: "John Rawls, Stanford Encyclopedia of Philosophy"
+          url: "https://plato.stanford.edu/entries/rawls/"
+          note: ""
+        - author: "Ben Davies"
+          title: "Original Position, Stanford Encyclopedia of Philosophy"
+          url: "https://plato.stanford.edu/entries/original-position/"
+          note: ""
+      suggested_queries:
+        - "Rawls property owning democracy welfare capitalism"
+        - "Rawls justice property personal productive"
+        - "is Rawls against private property"
+      requirements: >-
+        NON presentare Rawls come semplicemente "contro la proprietà privata".
+        Distinguere i tipi di proprietà e le istituzioni distributive.
+
+    # -----------------------------------------------------------------------
+    # Giorno 21 — Il velo d'ignoranza
+    # -----------------------------------------------------------------------
+    - day: 21
+      title: "Il velo d'ignoranza"
+      fundamental_question: "Che cosa sceglierebbero degli agenti razionali dietro un velo d'ignoranza riguardo alle istituzioni che regolano la proprietà?"
+      why_it_matters: >-
+        La posizione originaria e il velo d'ignoranza sono il dispositivo con cui
+        Rawls rende imparziale la scelta delle istituzioni, inclusa la proprietà.
+        La lezione ne valuta forza e limiti.
+      objectives:
+        - Studiare posizione originaria e velo d'ignoranza.
+        - Collegare distribuzione, istituzioni e proprietà.
+        - Presentare le obiezioni principali (e.g. l'incertezza metodologica, la critica comunitarista).
+      concepts:
+        - original position
+        - veil of ignorance
+        - distribution
+        - institutions
+        - primary goods
+      authors:
+        - John Rawls
+      known_primary_sources:
+        - author: "John Rawls"
+          title: "A Theory of Justice"
+          location: "Ch. 3 (original position); Ch. 2 (principi di giustizia)"
+          url: ""
+          note: "Sotto copyright."
+      known_secondary_sources:
+        - author: "Ben Davies"
+          title: "Original Position, Stanford Encyclopedia of Philosophy"
+          url: "https://plato.stanford.edu/entries/original-position/"
+          note: ""
+      suggested_queries:
+        - "Rawls original position veil of ignorance"
+        - "veil of ignorance property distribution institutions"
+        - "Rawls difference principle economic institutions"
+      requirements: >-
+        Non presentare il velo d'ignoranza come un meccanismo che "dimostra" una
+        risposta: esporne la logica e i limiti.
+
+    # -----------------------------------------------------------------------
+    # Giorno 22 — Proprietà come istituzione sociale
+    # -----------------------------------------------------------------------
+    - day: 22
+      title: "Proprietà come istituzione sociale"
+      fundamental_question: "La proprietà è un diritto naturale o un'istituzione creata dalla società?"
+      why_it_matters: >-
+        La posta è metafisica e normativa insieme: se la proprietà è un
+        espediente convenzionale, le sue regole sono negoziabili; se è un
+        diritto naturale, cambiarne le regole è un'ingiustizia.
+      objectives:
+        - Confrontare natural rights, conventionalism, legal positivism e institutional accounts.
+        - Vedere come questa questione si ripresenta in ogni teoria incontrata.
+      concepts:
+        - natural rights
+        - conventionalism
+        - legal positivism
+        - institutional accounts
+        - social construction
+      authors:
+        - David Hume
+        - Jeremy Bentham
+        - John Locke
+      known_primary_sources:
+        - author: "David Hume"
+          title: "A Treatise of Human Nature (Book III)"
+          location: "Sezione sulla giustizia e la proprietà come convenzione"
+          url: ""
+          note: "Testo di pubblico dominio: cercare una versione legale in HTML (e.g. Project Gutenberg)."
+      known_secondary_sources:
+        - author: "Christopher Morris (ed.)"
+          title: "Property, Stanford Encyclopedia of Philosophy"
+          url: "https://plato.stanford.edu/entries/property/"
+          note: "Sezioni su convenzione e istituzione."
+      suggested_queries:
+        - "Hume justice convention property Treatise"
+        - "property conventionalism legal positivism natural rights"
+        - "is property a natural right or social institution"
+      requirements: >-
+        Nessuna posizione deve apparire come la "semplice verità": presentare le
+        differenze e punti di contatto.
+
+    # -----------------------------------------------------------------------
+    # Giorno 23 — Bundle of rights
+    # -----------------------------------------------------------------------
+    - day: 23
+      title: "Bundle of rights"
+      fundamental_question: "Possiamo avere proprietà senza avere tutti i diritti del 'fascio'?"
+      why_it_matters: >-
+        L'idea che la proprietà sia un insieme di diritti (usare, escludere,
+        trasferire, modificare, distruggere, beneficiare, ereditare) cambia la
+        domanda: non "chi possiede?" ma "quale fascio?".
+      objectives:
+        - Introdurre il modello bundle of rights (Hohfeld).
+        - Discutere se tutti i diritti del fascio siano necessari.
+        - Collegare con le teorie istituzionali e con i commons.
+      concepts:
+        - use
+        - exclude
+        - transfer
+        - modify
+        - destroy
+        - benefit
+        - inherit
+        - Hohfeld
+      authors:
+        - Wesley Hohfeld
+        - A. M. Honoré
+      known_primary_sources:
+        - author: "A. M. Honoré"
+          title: "'Ownership' (Oxford Essays in Jurisprudence)"
+          location: "Standard incidents of ownership"
+          url: ""
+          note: "Sotto copyright."
+      known_secondary_sources:
+        - author: "Christopher Morris (ed.)"
+          title: "Property, Stanford Encyclopedia of Philosophy"
+          url: "https://plato.stanford.edu/entries/property/"
+          note: "Sezione sul bundle of rights."
+      suggested_queries:
+        - "bundle of rights property Hohfeld Honoré"
+        - "standard incidents of ownership Honoré"
+        - "is property a bundle of rights critique"
+      requirements: >-
+        La domanda "è ancora proprietà un fascio incompleto?" va discussa con
+        esempi concreti (proprietà intellettuale, affitto, commons).
+
+    # -----------------------------------------------------------------------
+    # Giorno 24 — Proprietà e beni comuni
+    # -----------------------------------------------------------------------
+    - day: 24
+      title: "Proprietà e beni comuni"
+      fundamental_question: "Se nessuno possiede esclusivamente una risorsa, necessariamente viene utilizzata male?"
+      why_it_matters: >-
+        "Tragedy of the commons" è spesso usata come argomento contro ogni forma
+        di uso comune. La lezione mostra che commons, open access, proprietà
+        collettiva e pubblica sono cose diverse, e che esistono forme di
+        gestione comune che funzionano.
+      objectives:
+        - Distinguere commons, open access, collective ownership, public ownership, private ownership.
+        - Esporre la tesi di Hardin e le sue condizioni di validità.
+        - Introdurre Ostrom e la gestione dei commons senza semplificare.
+      concepts:
+        - commons
+        - open access
+        - collective ownership
+        - public ownership
+        - tragedy of the commons
+        - Ostrom
+      authors:
+        - Garrett Hardin
+        - Elinor Ostrom
+      known_primary_sources:
+        - author: "Garrett Hardin"
+          title: "The Tragedy of the Commons (Science, 1968)"
+          location: "Testo completo in scietific journal: chiedere al researcher di trovare una versione legale"
+          url: ""
+          note: "Articolo rivista: trovare versione legale (e.g. frammenti da universitá); citare con cautela."
+      known_secondary_sources:
+        - author: "Christopher Morris (ed.)"
+          title: "Property, Stanford Encyclopedia of Philosophy"
+          url: "https://plato.stanford.edu/entries/property/"
+          note: ""
+      suggested_queries:
+        - "Hardin tragedy of the commons full text"
+        - "Ostrom governing the commons critique Hardin"
+        - "commons vs open access definition"
+      requirements: >-
+        NON ridurre il tema alla formula "tragedy of the commons = tutto ciò che
+        è comune fallisce". Presentare la logica di Hardin e i controesempi di
+        Ostrom con i loro limiti.
+
+    # -----------------------------------------------------------------------
+    # Giorno 25 — Proprietà intellettuale
+    # -----------------------------------------------------------------------
+    - day: 25
+      title: "Proprietà intellettuale"
+      fundamental_question: "Un'idea può essere posseduta nello stesso senso in cui può essere posseduto un terreno?"
+      why_it_matters: >-
+        La proprietà intellettuale estende il paradigma della proprietà a entità
+        non-rivali. Scarsità, esclusione, copia, incentivo e appropriazione
+        vengono rimesse in discussione.
+      objectives:
+        - Confrontare scarsità, esclusione, copia, incentivo, appropriazione nel dominio delle idee.
+        - Presentare gli argomenti pro e contro la proprietà intellettuale.
+        - Vedere come Locke e il pubblico dominio entrino in gioco.
+      concepts:
+        - scarcity
+        - non-rivalry
+        - copy
+        - incentive
+        - public domain
+        - appropriation
+      authors:
+        - John Locke
+        - Edwin Hettinger
+        - Stephen Kinsella
+      known_primary_sources:
+        - author: "John Locke"
+          title: "Second Treatise of Government"
+          location: "Ch. V (applicazione analogica al dominio intellettuale)"
+          url: "https://www.gutenberg.org/files/7370/7370-h/7370-h.htm"
+          note: ""
+      known_secondary_sources:
+        - author: "Adam Moore, Ken Himma"
+          title: "Intellectual Property, Stanford Encyclopedia of Philosophy"
+          url: "https://plato.stanford.edu/entries/intellectual-property/"
+          note: ""
+      suggested_queries:
+        - "philosophy of intellectual property lockean argument"
+        - "intellectual property non-rivalrous goods arguments"
+        - "is intellectual property justified incentivism"
+      requirements: >-
+        L'analogia terra/idea deve essere esplicitamente problematizzata. Nessun
+        parere definitivo.
+
+    # -----------------------------------------------------------------------
+    # Giorno 26 — Terra e risorse naturali
+    # -----------------------------------------------------------------------
+    - day: 26
+      title: "Terra e risorse naturali"
+      fundamental_question: "Perché una persona dovrebbe poter diventare proprietaria di una risorsa naturale che nessuno ha creato?"
+      why_it_matters: >-
+        Se nessuno ha creato la terra né le risorse, da dove viene il diritto di
+        escluderne gli altri? Locke, Nozick, Georgismo e posizioni egualitarie
+        danno risposte molto diverse.
+      objectives:
+        - Confrontare Locke, Nozick, il Georgismo e le posizioni egualitarie sulla terra.
+        - Discutere la "clausola lockeana" applicata alla terra.
+        - Presentare l'idea di rendita su risorse (Georgism) senza prenderla per comica o ovvia.
+      concepts:
+        - natural resources
+        - land
+        - georgism
+        - Lockean proviso
+        - resource egalitarianism
+        - rents
+      authors:
+        - John Locke
+        - Robert Nozick
+        - Henry George
+        - Hillel Steiner
+      known_primary_sources:
+        - author: "John Locke"
+          title: "Second Treatise of Government"
+          location: "Ch. V, §§ 25–36 (terra e appropriazione)"
+          url: "https://www.gutenberg.org/files/7370/7370-h/7370-h.htm"
+          note: ""
+      known_secondary_sources:
+        - author: "Christopher Morris (ed.)"
+          title: "Property, Stanford Encyclopedia of Philosophy"
+          url: "https://plato.stanford.edu/entries/property/"
+          note: "Sezione sulla terra e le risorse."
+      suggested_queries:
+        - "Henry George single tax land property"
+        - "Locke Nozick land acquisition natural resources"
+        - "resource egalitarianism initial acquisition land"
+      requirements: >-
+        La tesi del Georgismo (la terra appartiene a tutti; si può tassare la
+        rendita fondiaria) deve essere esposta seriamente, non come curiosità.
+
+    # -----------------------------------------------------------------------
+    # Giorno 27 — Proprietà e libertà
+    # -----------------------------------------------------------------------
+    - day: 27
+      title: "Proprietà e libertà"
+      fundamental_question: "La proprietà privata aumenta la libertà o può limitarla?"
+      why_it_matters: >-
+        Entrambe le risposte hanno argomenti forti. La lezione distingue libertà
+        negativa, libertà positiva, autonomia e potere contrattuale, e mostra
+        dove il conflitto è reale.
+      objectives:
+        - Presentare argomenti in entrambe le direzioni.
+        - Distinguere libertà negativa, libertà positiva, autonomia, potere contrattuale.
+        - Vedere perché la proprietà può aumentare la libertà di alcuni e ridurre quella di altri.
+      concepts:
+        - negative freedom
+        - positive freedom
+        - autonomy
+        - bargaining power
+        - independence
+      authors:
+        - Friedrich Hayek
+        - G. A. Cohen
+        - Philippe Van Parijs
+      known_primary_sources:
+        - author: "G. A. Cohen"
+          title: "Self-Ownership, Freedom, and Equality"
+          location: "Parte sull'autonomia e libertà"
+          url: ""
+          note: "Sotto copyright."
+      known_secondary_sources:
+        - author: "Miriam Ronzoni (ed.)"
+          title: "G. A. Cohen, Stanford Encyclopedia of Philosophy"
+          url: "https://plato.stanford.edu/entries/cohen/"
+          note: ""
+      suggested_queries:
+        - "property and freedom negative positive liberty"
+        - "freedom property rights Cohen autonomy"
+        - "bargaining power property and freedom"
+      requirements: >-
+        Presentare gli argomenti liberali-libertari e quelli egualitari senza
+        decidere. Le generalizzazioni empiriche vanno evitate senza evidenza.
+
+    # -----------------------------------------------------------------------
+    # Giorno 28 — Proprietà e potere
+    # -----------------------------------------------------------------------
+    - day: 28
+      title: "Proprietà e potere"
+      fundamental_question: "Possedere risorse significa avere potere sugli altri?"
+      why_it_matters: >-
+        La ricchezza genera dipendenza e influenza la contrattazione. La lezione
+        analizza il nesso tra proprietà e potere senza arrogarsi generalizzazioni
+        empiriche non supportate.
+      objectives:
+        - Analizzare dipendenza, contrattazione, concentrazione della ricchezza, libertà contrattuale, potere economico.
+        - Distinguere il piano normativo (cosa dovremmo fare) dal piano empirico (cosa sappiamo).
+        - Mostrare che entrambe le direzioni hanno argomenti seri.
+      concepts:
+        - dependence
+        - bargaining
+        - concentration of wealth
+        - contractual freedom
+        - economic power
+      authors:
+        - G. A. Cohen
+        - Robert Nozick
+        - Karl Marx
+      known_primary_sources:
+        - author: "G. A. Cohen"
+          title: "Self-Ownership, Freedom, and Equality"
+          location: "Parte sul potere e la contrattazione"
+          url: ""
+          note: "Sotto copyright."
+      known_secondary_sources:
+        - author: "Miriam Ronzoni (ed.)"
+          title: "G. A. Cohen, Stanford Encyclopedia of Philosophy"
+          url: "https://plato.stanford.edu/entries/cohen/"
+          note: ""
+      suggested_queries:
+        - "wealth power bargaining Cohen Nozick"
+        - "economic power property dependence philosophy"
+        - "concentration of wealth political power philosophy"
+      requirements: >-
+        Evitare generalizzazioni empiriche non supportate. Distinguere tesi
+        normative e tesi descrittive.
+
+    # -----------------------------------------------------------------------
+    # Giorno 29 — Sintesi: teorie a confronto
+    # -----------------------------------------------------------------------
+    - day: 29
+      title: "È possibile una teoria coerente della proprietà?"
+      fundamental_question: "Che cosa ogni grande teoria cerca di spiegare e che cosa lascia aperto?"
+      why_it_matters: >-
+        Giornata di sintesi: mettere a confronto sistematicamente Locke, Marx,
+        Nozick, Cohen, Rawls, teorie dei commons e teorie istituzionali, senza
+        eleggere un vincitore.
+      objectives:
+        - Costruire una mappa delle teorie incontrate.
+        - Mostrare quali problemi ognuna risolve e quali lascia aperti.
+        - Preparare la domanda finale del giorno 30.
+      concepts:
+        - systematization
+        - map of theories
+        - open problems
+      authors:
+        - John Locke
+        - Karl Marx
+        - Robert Nozick
+        - G. A. Cohen
+        - John Rawls
+      known_primary_sources:
+        - author: "John Locke"
+          title: "Second Treatise of Government"
+          location: "Ch. V"
+          url: "https://www.gutenberg.org/files/7370/7370-h/7370-h.htm"
+          note: ""
+      known_secondary_sources:
+        - author: "Christopher Morris (ed.)"
+          title: "Property, Stanford Encyclopedia of Philosophy"
+          url: "https://plato.stanford.edu/entries/property/"
+          note: ""
+      suggested_queries:
+        - "Locke Marx Nozick Cohen Rawls property comparison"
+        - "philosophy of property overview comparison"
+        - "theories of property locke marx nozick rawls overview"
+      requirements: >-
+        NON eleggere un vincitore. Costruire una tabella comparativa: problema
+        che la teoria affronta, soluzione proposta, problemi aperti.
+
+    # -----------------------------------------------------------------------
+    # Giorno 30 — Il problema fondamentale
+    # -----------------------------------------------------------------------
+    - day: 30
+      title: "Il problema fondamentale"
+      fundamental_question: "Che cosa possiamo possedere?"
+      why_it_matters: >-
+        Lezione conclusiva: lo studente deve costruire una posizione propria,
+        usando una mappa delle teorie incontrate e un esercizio di
+        argomentazione. Nessuna teoria dichiarata corretta.
+      objectives:
+        - Costruire una mappa delle teorie e delle domande.
+        - Identificare i punti di conflitto e i problemi aperti.
+        - Produrre una teoria personale della proprietà con specificazioni concrete.
+      concepts:
+        - synthesis
+        - argumentation
+        - personal position
+      authors:
+        - John Locke
+        - Karl Marx
+        - Robert Nozick
+        - G. A. Cohen
+        - John Rawls
+        - Elinor Ostrom
+      known_primary_sources:
+        - author: "John Locke"
+          title: "Second Treatise of Government"
+          location: "Ch. V"
+          url: "https://www.gutenberg.org/files/7370/7370-h/7370-h.htm"
+          note: ""
+      known_secondary_sources:
+        - author: "Christopher Morris (ed.)"
+          title: "Property, Stanford Encyclopedia of Philosophy"
+          url: "https://plato.stanford.edu/entries/property/"
+          note: ""
+      suggested_queries:
+        - "what can be owned philosophy property"
+        - "theories of property open questions"
+        - "philosophy of ownership summary"
+      requirements: >-
+        Il writer deve includere: mappa delle teorie, domande a cui risponde
+        ciascuna, punti di conflitto, problemi aperti, e un esercizio finale di
+        argomentazione (NON "quale teoria è corretta?", ma la costruzione di una
+        teoria con: cosa può essere posseduto, come si acquisisce, quali limiti,
+        come si trasferisce, effetti su terzi).
